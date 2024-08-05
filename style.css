@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.main {
+    background-image: url("docs/images/bgImage.jpg");
+    height: 98vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(2000px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 98vh;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    padding: 10px;
+}
+
+nav img {
+    color: red;
+    width: 154px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+body {
+    background-color: black;
+}
+
+.mainbody {
+    height: calc(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0 26px;
+    text-align: center;
+
+}
+
+.mainbody> :first-child {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+    font-weight: 900;
+    font-size: 47px;
+}
+
+.mainbody> :nth-child(2) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+    font-weight: 450;
+    font-size: 25px;
+}
+
+.mainbody :nth-child(3) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+    font-weight: 450;
+    font-size: 20px;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lang-btn {
+    padding: 7px 26px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border: 1px solid #ffffff70;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-button {
+    gap: 14px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: 90;
+    padding: 11px 31px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.btn-red-sm {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    margin: 5px;
+    padding: 8px 22px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.hero-buttons input {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 101px 15px 15px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgb(136, 134, 134);
+}
+
+.first {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+    display: flex;
+    justify-content: center;
+    max-width: 75vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+
+}
+
+.secimg img {
+    width: 560px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg video {
+    position: absolute;
+    top: 78px;
+
+    right: 0px;
+}
+
+section.first>div :nth-child(1) {
+    gap: 7px;
+    font-size: 52px;
+    font-weight: 850;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.third video {
+    top: 49px;
+    width: 350px;
+    right: 100px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.faq {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+    background-color: black;
+    color: white;
+    padding: 34px;
+
+}
+
+.faqbox:hover {
+    background-color: #414141;
+
+}
+
+.faqbox {
+    display: flex;
+    background-color: #80808061;
+    padding: 25px;
+    margin: 34px auto;
+    justify-content: space-between;
+    max-width: 70vw;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 1s ease out;
+}
+
+.last>span {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    display: flex;
+    font-size: 24px;
+}
+
+footer {
+    color: white;
+    padding: 24px;
+    max-width: 60vw;
+    margin: auto;
+    font-size: 14px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+footer .ques {
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+}
+
+@media screen and (max-width:1300px) {
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secimg video {
+        width: 223px;
+        left: 71px;
+    }
+
+    .secimg img {
+        width: 360px;
+        overflow: hidden;
+    }
+
+    .mainbody> :first-child {
+        font-size: 32px;
+    }
+
+    .mainbody> :nth-child(2) {
+
+        font-size: 17px;
+    }
+
+    .mainbody :nth-child(3) {
+
+        font-size: 17px;
+    }
+
+    nav {
+        max-width: 97vw;
+    }
+
+    .hero-buttons input {
+        font-size: 19px;
+
+        padding: 0px 0px 31px 0px;
+
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.first>div :nth-child(1) {
+        gap: 7px;
+        font-size: 45px;
+        text-align: center;
+        font-weight: 800;
+    }
+    section.first>div :nth-child(2) {
+        font-size: 23px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .faq h2{
+        font-size: 32px;
+    }
+    .footer{
+        max-width: 90vw;
+
+}
+}
+
+
+@media screen and (max-width:1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 29px;
+    }
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer a {
+    font-size: 14x;
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-item button {
+    padding: 8px 8px;
+    margin: 22px;
+    right: 28px;
+    position: relative;
+    bottom: 25px;
+}
+
+.netflix {}
